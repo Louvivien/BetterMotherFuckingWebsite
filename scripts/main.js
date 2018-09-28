@@ -10,8 +10,12 @@ document.onload= setTimeout("stay_here()",5000);
 			
 		}
 	}
+// pop up pr aller ou non sur un lien
 
 
+function myFunction() {
+    document.body.style.backgroundColor = "magenta";
+}
 
 /*
 document.onload= setTimeout("stay_here()",5000);
