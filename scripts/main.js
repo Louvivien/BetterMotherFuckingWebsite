@@ -3,7 +3,7 @@ document.onload= setTimeout("stay_here()",5000);
 	function stay_here() {
 
 		if (window.confirm("Tu veux aller sur xxxvidsxx ?")) {
-			window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ","Hey, it works.","width=600,height=600");
+			window.location.href= "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 		}
  		else {
 			alert("OK. tant pis");
