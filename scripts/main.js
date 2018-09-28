@@ -12,6 +12,7 @@ document.onload= setTimeout("stay_here()",5000);
 	}
 
 
+
 /*
 document.onload= setTimeout("stay_here()",5000);
 
