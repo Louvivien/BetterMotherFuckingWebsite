@@ -2,7 +2,7 @@ document.onload= setTimeout("stay_here()",5000);
 
 	function stay_here() {
 
-		if (!window.confirm("Tu veux aller sur xxxvidsxx ?")) {
+		if (window.confirm("Tu veux aller sur xxxvidsxx ?")) {
 			window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ","Hey, it works.","width=600,height=600");
 		}
  		else {
