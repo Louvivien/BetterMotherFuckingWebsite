@@ -1,3 +1,18 @@
+
+document.onload= setTimeout("stay_here()",5000);
+
+	function stay_here() {
+
+		if (window.confirm("Tu veux aller sur xxxvidsxx ?")) {
+			window.location.href= "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+		}
+ 		else {
+			
+		}
+	}
+
+
+/*
 document.onload= setTimeout("stay_here()",5000);
 
 	function stay_here() {
@@ -10,7 +25,8 @@ document.onload= setTimeout("stay_here()",5000);
 			return false;
 		}
 	}
-
+*/ 
+// else return somthing
 
 
 /*
