@@ -17,21 +17,24 @@ document.onload= setTimeout("stay_here()",5000);
 
 function myFunction() {
     	document.body.style.backgroundColor = "magenta";
-	document.getElementById("p1").style.color = "blue";
+
+	
+	 // Modify the <p> tag style.
+ 	 var Para = document.getElementsByTagName("p");
+  	for (var i= 0; i < Para.length; i++)
+  	{
+  	 Para[i].style.fontFamily = "papyrus";
+   	Para[i].style.color = "blue";
+  	}
 	
 
   	// Modify the <h1> tag style.
   	var Header = document.getElementsByTagName("h1")
   	for (var i = 0; i < Header.length; i++)
   	{
-  	 Header[i].style.fontFamily = "Arial";
-   	Header[i].style.fontSize = "45px";
-   	Header[i].style.fontWeight = "bold";
+  	 Header[i].style.fontFamily = "Comic Sans";
    	Header[i].style.color = "green";
-   	Header[i].style.textAlign = "center";
-   	Header[i].style.marginLeft = "20px";
-   	Header[i].style.marginRight = "20px";
-   	Header[i].style.border = "medium double green";
+  
   	}
 
 }
