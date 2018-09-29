@@ -38,10 +38,6 @@ function myFunction() {
 	
 	
 	
-	
-	
-	
-		}
 /*
 document.onload= setTimeout("stay_here()",5000);
 
