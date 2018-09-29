@@ -17,6 +17,8 @@ document.onload= setTimeout("stay_here()",5000);
 function myFunction() {
     document.body.style.backgroundColor = "magenta";
 document.getElementById("p1").style.color = "blue";
+	document.getElementById("id01").style.color = "green";
+
 	
 	
 	
