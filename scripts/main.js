@@ -21,8 +21,6 @@ function myFunction() {
 	var about;   
 	about = document.getElementById("about").innerHTML;
     	about.style.color = 'green';
-}	
-	
 	}
 /*
 document.onload= setTimeout("stay_here()",5000);
