@@ -18,14 +18,10 @@ document.onload= setTimeout("stay_here()",5000);
 function myFunction() {
     	document.body.style.backgroundColor = "magenta";
 	document.getElementById("p1").style.color = "blue";
-
-	var divs = document.getElementsByTagName("h1");  // Access all <H1> present in your body.
-	for(var i = 0; i < divs.length; i++) {   //divs.length contain number of <h1> elements
-  	var div = divs[i];                     // Now access Each <H1> one-by-one
-  	div.style.color = 'green';             // Set Color Style of each <h1>
-	}
-
-	
+	var about;   
+	about = document.getElementById("about").innerHTML;
+    	about.style.color = 'green';
+}	
 	
 	}
 /*
