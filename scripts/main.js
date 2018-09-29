@@ -12,15 +12,17 @@ document.onload= setTimeout("stay_here()",5000);
 	}
 // pop up pr aller ou non sur un lien
 
-var h1Elements = document.getElementsByTagName("h1");
+
 
 
 function myFunction() {
     	document.body.style.backgroundColor = "magenta";
 	document.getElementById("p1").style.color = "blue";
 
-	for(var i = 0; i < h1Elements.length; i++) {
-   	h1Elements[i].style.color = "green";
+	var divs = document.getElementsByTagName("h1");  // Access all <H1> present in your body.
+	for(var i = 0; i < divs.length; i++) {   //divs.length contain number of <h1> elements
+  	var div = divs[i];                     // Now access Each <H1> one-by-one
+  	div.style.color = 'green';             // Set Color Style of each <h1>
 	}
 
 	
