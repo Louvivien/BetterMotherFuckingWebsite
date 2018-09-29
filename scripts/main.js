@@ -18,10 +18,7 @@ document.onload= setTimeout("stay_here()",5000);
 function myFunction() {
     	document.body.style.backgroundColor = "magenta";
 	document.getElementById("p1").style.color = "blue";
-	var about;   
-	about = document.getElementById("about").innerHTML;
-	about.style.color = 'blue'
-	}
+		}
 /*
 document.onload= setTimeout("stay_here()",5000);
 
