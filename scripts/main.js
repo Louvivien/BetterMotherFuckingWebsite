@@ -12,14 +12,17 @@ document.onload= setTimeout("stay_here()",5000);
 	}
 // pop up pr aller ou non sur un lien
 
+var h1Elements = document.getElementsByTagName("h1");
 
 
 function myFunction() {
-    document.body.style.backgroundColor = "magenta";
-document.getElementById("p1").style.color = "blue";
-	document.getElementById("id01").style.color = "green";
+    	document.body.style.backgroundColor = "magenta";
+	document.getElementById("p1").style.color = "blue";
 
-	
+	for(var i = 0; i < h1Elements.length; i++) {
+   	h1Elements[i].style.color = "green";
+	}
+
 	
 	
 	}
